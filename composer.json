@@ -1,0 +1,16 @@
+{
+    "name": "mateuszmesek-magento2/pull-request-36155",
+    "description": "",
+    "type": "magento2-component",
+    "license": "OSL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\Framework\\Mview\\": "src/framework",
+            "Magento\\Eav\\Model\\Mview\\": "src/module-eav"
+        }
+    },
+    "require": {
+        "magento/framework": "103.0.4",
+        "magento/module-eav": "102.1.4"
+    }
+}
